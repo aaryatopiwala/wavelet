@@ -16,7 +16,7 @@ class Handler implements URLHandler {
                     strings.add(parameters[1]);
                     return String.format("String Added!");
                 }
-            return String.format("Number incremented!");
+            return String.format("Error Adding.");
         } else {
             System.out.println("Path: " + url.getPath());
             if (url.getPath().contains("/search")) {
